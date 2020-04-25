@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3bb8f8</color>
+    <color name="colorPrimaryDark">#00574B</color>
+    <color name="colorAccent">#3bb8f8</color>
+    <color name="app_blue">#045CB1</color>
+    <color name="dodgerblue">#1E90FF</color>
+    <color name="lightgrey">#D3D3D3</color>
+    <color name="tomato">#FF6347</color>
+    <color name="colorGrayDeep">#A5A8AA</color>
+    <color name="Red">#FF0000</color>
+    <color name="main_gray">#eff3f6</color>
+    <color name="spinner">#e6e9ee</color>
+    <color name="white">#FFFFFF</color>
+    <color name="gray">#BFBFBF</color>
+    <color name="black">#000000</color>
+</resources>

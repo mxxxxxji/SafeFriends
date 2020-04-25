@@ -1,0 +1,638 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:weightSum="312">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:orientation="horizontal"
+        android:layout_weight="312"
+        android:weightSum="296">
+
+        <FrameLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="26">
+        </FrameLayout>
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="244"
+            android:orientation="vertical"
+            android:weightSum="312">
+
+            <!--버튼 1줄-->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="32"
+                android:orientation="horizontal"
+                android:weightSum="244">
+
+                <Button
+                    android:id="@+id/btn_seat_1"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="34"
+                    android:background="@drawable/icon_seat_no_child"
+                    android:text="1"
+                    android:textColor="@color/colorGrayDeep"
+                    android:textSize="10sp"
+                    android:textStyle="normal" />
+                <FrameLayout
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="8"></FrameLayout>
+
+                <Button
+                    android:id="@+id/btn_seat_2"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="34"
+                    android:background="@drawable/icon_seat_no_child"
+                    android:text="2"
+                    android:textColor="@color/colorGrayDeep"
+                    android:textSize="10sp"
+                    android:textStyle="normal" />
+                <FrameLayout
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="8"></FrameLayout>
+
+                <Button
+                    android:id="@+id/btn_seat_3"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="34"
+                    android:background="@drawable/icon_seat_no_child"
+                    android:text="3"
+                    android:textColor="@color/colorGrayDeep"
+                    android:textSize="10sp"
+                    android:textStyle="normal" />
+                <FrameLayout
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="126"></FrameLayout>
+
+
+            </LinearLayout>
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="8"></FrameLayout>
+            <!--버튼 4줄-->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="32"
+                android:orientation="horizontal"
+                android:weightSum="244">
+
+                <Button
+                android:id="@+id/btn_seat_4"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="34"
+                android:background="@drawable/icon_seat_no_child"
+                android:text="4"
+                android:textColor="@color/colorGrayDeep"
+                android:textSize="10sp"
+                android:textStyle="normal" />
+                <FrameLayout
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="8"></FrameLayout>
+                <Button
+                    android:id="@+id/btn_seat_5"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="34"
+                    android:background="@drawable/icon_seat_no_child"
+                    android:text="5"
+                    android:textColor="@color/colorGrayDeep"
+                    android:textSize="10sp"
+                    android:textStyle="normal" />
+                <FrameLayout
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="8"></FrameLayout>
+
+                <Button
+                    android:id="@+id/btn_seat_6"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="34"
+                    android:background="@drawable/icon_seat_no_child"
+                    android:text="6"
+                    android:textColor="@color/colorGrayDeep"
+                    android:textSize="10sp"
+                    android:textStyle="normal" />
+                <FrameLayout
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="126"></FrameLayout>
+
+            </LinearLayout>
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="8"></FrameLayout>
+            <!--버튼 7줄-->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="32"
+                android:orientation="horizontal"
+                android:weightSum="244">
+
+                <Button
+                    android:id="@+id/btn_seat_7"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="34"
+                    android:background="@drawable/icon_seat_no_child"
+                    android:text="7"
+                    android:textColor="@color/colorGrayDeep"
+                    android:textSize="10sp"
+                    android:textStyle="normal" />
+                <FrameLayout
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="8"></FrameLayout>
+                <Button
+                    android:id="@+id/btn_seat_8"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="34"
+                    android:background="@drawable/icon_seat_no_child"
+                    android:text="8"
+                    android:textColor="@color/colorGrayDeep"
+                    android:textSize="10sp"
+                    android:textStyle="normal" />
+                <FrameLayout
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="8"></FrameLayout>
+
+                <Button
+                    android:id="@+id/btn_seat_9"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="34"
+                    android:background="@drawable/icon_seat_no_child"
+                    android:text="9"
+                    android:textColor="@color/colorGrayDeep"
+                    android:textSize="10sp"
+                    android:textStyle="normal" />
+                <FrameLayout
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="92"></FrameLayout>
+                <Button
+                    android:id="@+id/btn_seat_appoint"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="34"
+                    android:background="@drawable/icon_seat_no_child"
+                    android:text="지정석"
+                    android:textColor="@color/colorGrayDeep"
+                    android:textSize="10sp"
+                    android:textStyle="normal" />
+            </LinearLayout>
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="8"></FrameLayout>
+            <!--버튼 10줄-->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="32"
+                android:orientation="horizontal"
+                android:weightSum="244">
+
+
+                <Button
+                    android:id="@+id/btn_seat_10"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="34"
+                    android:background="@drawable/icon_seat_no_child"
+                    android:text="10"
+                    android:textColor="@color/colorGrayDeep"
+                    android:textSize="10sp"
+                    android:textStyle="normal" />
+                <FrameLayout
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="8"></FrameLayout>
+                <Button
+                    android:id="@+id/btn_seat_11"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="34"
+                    android:background="@drawable/icon_seat_no_child"
+                    android:text="11"
+                    android:textColor="@color/colorGrayDeep"
+                    android:textSize="10sp"
+                    android:textStyle="normal" />
+                <FrameLayout
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="8"></FrameLayout>
+
+                <Button
+                    android:id="@+id/btn_seat_12"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="34"
+                    android:background="@drawable/icon_seat_no_child"
+                    android:text="12"
+                    android:textColor="@color/colorGrayDeep"
+                    android:textSize="10sp"
+                    android:textStyle="normal" />
+                <FrameLayout
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="50"></FrameLayout>
+                <Button
+                    android:id="@+id/btn_seat_13"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="34"
+                    android:background="@drawable/icon_seat_no_child"
+                    android:text="13"
+                    android:textColor="@color/colorGrayDeep"
+                    android:textSize="10sp"
+                    android:textStyle="normal" />
+                <FrameLayout
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="8"></FrameLayout>
+
+                <Button
+                    android:id="@+id/btn_seat_14"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="34"
+                    android:background="@drawable/icon_seat_no_child"
+                    android:text="14"
+                    android:textColor="@color/colorGrayDeep"
+                    android:textSize="10sp"
+                    android:textStyle="normal" />
+            </LinearLayout>
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="8"></FrameLayout>
+            <!--버튼 15줄-->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="32"
+                android:orientation="horizontal"
+                android:weightSum="244">
+
+                <Button
+                    android:id="@+id/btn_seat_15"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="34"
+                    android:background="@drawable/icon_seat_no_child"
+                    android:text="15"
+                    android:textColor="@color/colorGrayDeep"
+                    android:textSize="10sp"
+                    android:textStyle="normal" />
+                <FrameLayout
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="8"></FrameLayout>
+                <Button
+                    android:id="@+id/btn_seat_16"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="34"
+                    android:background="@drawable/icon_seat_no_child"
+                    android:text="16"
+                    android:textColor="@color/colorGrayDeep"
+                    android:textSize="10sp"
+                    android:textStyle="normal" />
+                <FrameLayout
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="8"></FrameLayout>
+
+                <Button
+                    android:id="@+id/btn_seat_17"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="34"
+                    android:background="@drawable/icon_seat_no_child"
+                    android:text="17"
+                    android:textColor="@color/colorGrayDeep"
+                    android:textSize="10sp"
+                    android:textStyle="normal" />
+                <FrameLayout
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="50"></FrameLayout>
+                <Button
+                    android:id="@+id/btn_seat_18"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="34"
+                    android:background="@drawable/icon_seat_no_child"
+                    android:text="18"
+                    android:textColor="@color/colorGrayDeep"
+                    android:textSize="10sp"
+                    android:textStyle="normal" />
+                <FrameLayout
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="8"></FrameLayout>
+
+                <Button
+                    android:id="@+id/btn_seat_19"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="34"
+                    android:background="@drawable/icon_seat_no_child"
+                    android:text="19"
+                    android:textColor="@color/colorGrayDeep"
+                    android:textSize="10sp"
+                    android:textStyle="normal" />
+            </LinearLayout>
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="8"></FrameLayout>
+            <!--버튼 20줄-->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="32"
+                android:orientation="horizontal"
+                android:weightSum="244">
+
+                <Button
+                    android:id="@+id/btn_seat_20"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="34"
+                    android:background="@drawable/icon_seat_no_child"
+                    android:text="20"
+                    android:textColor="@color/colorGrayDeep"
+                    android:textSize="10sp"
+                    android:textStyle="normal" />
+                <FrameLayout
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="8"></FrameLayout>
+                <Button
+                    android:id="@+id/btn_seat_21"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="34"
+                    android:background="@drawable/icon_seat_no_child"
+                    android:text="21"
+                    android:textColor="@color/colorGrayDeep"
+                    android:textSize="10sp"
+                    android:textStyle="normal" />
+                <FrameLayout
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="8"></FrameLayout>
+
+                <Button
+                    android:id="@+id/btn_seat_22"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="34"
+                    android:background="@drawable/icon_seat_no_child"
+                    android:text="22"
+                    android:textColor="@color/colorGrayDeep"
+                    android:textSize="10sp"
+                    android:textStyle="normal" />
+                <FrameLayout
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="50"></FrameLayout>
+                <Button
+                    android:id="@+id/btn_seat_23"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="34"
+                    android:background="@drawable/icon_seat_no_child"
+                    android:text="23"
+                    android:textColor="@color/colorGrayDeep"
+                    android:textSize="10sp"
+                    android:textStyle="normal" />
+                <FrameLayout
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="8"></FrameLayout>
+
+                <Button
+                    android:id="@+id/btn_seat_24"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="34"
+                    android:background="@drawable/icon_seat_no_child"
+                    android:text="24"
+                    android:textColor="@color/colorGrayDeep"
+                    android:textSize="10sp"
+                    android:textStyle="normal" />
+            </LinearLayout>
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="8"></FrameLayout>
+            <!--버튼 25줄-->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="32"
+                android:orientation="horizontal"
+                android:weightSum="244">
+
+                <Button
+                    android:id="@+id/btn_seat_25"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="34"
+                    android:background="@drawable/icon_seat_no_child"
+                    android:text="25"
+                    android:textColor="@color/colorGrayDeep"
+                    android:textSize="10sp"
+                    android:textStyle="normal" />
+                <FrameLayout
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="8"></FrameLayout>
+                <Button
+                    android:id="@+id/btn_seat_26"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="34"
+                    android:background="@drawable/icon_seat_no_child"
+                    android:text="26"
+                    android:textColor="@color/colorGrayDeep"
+                    android:textSize="10sp"
+                    android:textStyle="normal" />
+                <FrameLayout
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="8"></FrameLayout>
+
+                <Button
+                    android:id="@+id/btn_seat_27"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="34"
+                    android:background="@drawable/icon_seat_no_child"
+                    android:text="27"
+                    android:textColor="@color/colorGrayDeep"
+                    android:textSize="10sp"
+                    android:textStyle="normal" />
+                <FrameLayout
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="50"></FrameLayout>
+                <Button
+                    android:id="@+id/btn_seat_28"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="34"
+                    android:background="@drawable/icon_seat_no_child"
+                    android:text="28"
+                    android:textColor="@color/colorGrayDeep"
+                    android:textSize="10sp"
+                    android:textStyle="normal" />
+                <FrameLayout
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="8"></FrameLayout>
+
+                <Button
+                    android:id="@+id/btn_seat_29"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="34"
+                    android:background="@drawable/icon_seat_no_child"
+                    android:text="29"
+                    android:textColor="@color/colorGrayDeep"
+                    android:textSize="10sp"
+                    android:textStyle="normal" />
+            </LinearLayout>
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="8"></FrameLayout>
+            <!--버튼 30줄-->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="32"
+                android:orientation="horizontal"
+                android:weightSum="244">
+
+                <Button
+                    android:id="@+id/btn_seat_30"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="34"
+                    android:background="@drawable/icon_seat_no_child"
+                    android:text="30"
+                    android:textColor="@color/colorGrayDeep"
+                    android:textSize="10sp"
+                    android:textStyle="normal" />
+                <FrameLayout
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="8"></FrameLayout>
+                <Button
+                    android:id="@+id/btn_seat_31"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="34"
+                    android:background="@drawable/icon_seat_no_child"
+                    android:text="31"
+                    android:textColor="@color/colorGrayDeep"
+                    android:textSize="10sp"
+                    android:textStyle="normal" />
+                <FrameLayout
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="8"></FrameLayout>
+
+                <Button
+                    android:id="@+id/btn_seat_32"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="34"
+                    android:background="@drawable/icon_seat_no_child"
+                    android:text="32"
+                    android:textColor="@color/colorGrayDeep"
+                    android:textSize="10sp"
+                    android:textStyle="normal" />
+                <FrameLayout
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="8"></FrameLayout>
+                <Button
+                    android:id="@+id/btn_seat_33"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="34"
+                    android:background="@drawable/icon_seat_no_child"
+                    android:text="33"
+                    android:textColor="@color/colorGrayDeep"
+                    android:textSize="10sp"
+                    android:textStyle="normal" />
+                <FrameLayout
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="8"></FrameLayout>
+
+                <Button
+                    android:id="@+id/btn_seat_34"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="34"
+                    android:background="@drawable/icon_seat_no_child"
+                    android:text="34"
+                    android:textColor="@color/colorGrayDeep"
+                    android:textSize="10sp"
+                    android:textStyle="normal" />
+                <FrameLayout
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="8"></FrameLayout>
+                <Button
+                    android:id="@+id/btn_seat_35"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="34"
+                    android:background="@drawable/icon_seat_no_child"
+                    android:text="35"
+                    android:textColor="@color/colorGrayDeep"
+                    android:textSize="10sp"
+                    android:textStyle="normal" />
+            </LinearLayout>
+
+        </LinearLayout>
+        <FrameLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="16">
+        </FrameLayout>
+
+    </LinearLayout>
+
+</LinearLayout>

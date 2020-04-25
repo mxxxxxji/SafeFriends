@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center"
+    android:orientation="vertical"
+    android:background="@drawable/bg_dialog_radius2"
+    android:weightSum="345">
+
+    <TextView
+        android:id="@+id/tv1"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="115"
+        android:text="도보"
+        android:textSize="20sp"
+        android:gravity="center"
+        android:clickable="true"/>
+    <TextView
+        android:id="@+id/tv2"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="115"
+        android:text="결석"
+        android:textSize="20sp"
+        android:gravity="center"
+        android:clickable="true"/>
+    <TextView
+        android:id="@+id/tv3"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="115"
+        android:text="차"
+        android:textSize="20sp"
+        android:gravity="center"
+        android:clickable="true"/>
+
+</LinearLayout>

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="84.8dp"
+    android:layout_height="92.8dp"
+    android:layout_gravity="center"
+    android:orientation="vertical"
+    android:background="@drawable/bg_dialog_radius2">
+
+
+    <Button
+        android:id="@+id/btn1"
+        android:layout_width="84.8dp"
+        android:layout_height="28.8dp"
+        android:background="@color/white"
+
+        android:text="도보" />
+    <Button
+        android:id="@+id/btn2"
+        android:layout_width="84.8dp"
+        android:layout_height="32dp"
+        android:background="@color/white"
+        android:layout_below="@+id/btn1"
+
+        android:text="결석"
+        />
+    <Button
+        android:id="@+id/btn3"
+        android:layout_width="84.8dp"
+        android:layout_height="32dp"
+        android:background="@color/white"
+        android:layout_below="@+id/btn2"
+
+        android:text="차(부모님)"
+     />
+</RelativeLayout>

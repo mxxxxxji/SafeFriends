@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:gravity="center_vertical"
+    android:paddingLeft="13dp"
+    android:paddingRight="13dp"
+    android:padding="5dp"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="10">
+
+    <TextView
+        android:id="@+id/spinner_tv1"
+        android:textSize="15sp"
+        android:text="다음목적지"
+        android:gravity="center"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="3"/>
+
+    <TextView
+        android:textSize="15sp"
+        android:gravity="center"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"/>
+
+    <TextView
+        android:id="@+id/spinner_tv2"
+        android:textSize="15sp"
+        android:textColor="@color/colorGrayDeep"
+        android:alpha="0.87"
+        android:paddingLeft="13dp"
+        android:textColorHint="#1f000000"
+        android:gravity="center"
+        android:layout_weight="5"
+        android:layout_width="0dp"
+        android:layout_height="match_parent" />
+
+</LinearLayout>

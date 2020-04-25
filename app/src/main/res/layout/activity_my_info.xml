@@ -1,0 +1,277 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Activity.MyInfoActivity"
+    android:orientation="vertical"
+    android:weightSum="612">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="56"
+        android:background="@color/colorPrimary"
+        android:orientation="horizontal"
+        android:weightSum="360">
+        <FrameLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="16"></FrameLayout>
+        <ImageButton
+            android:id="@+id/set_titlebar_back"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="24"
+            android:adjustViewBounds="true"
+            android:background="@color/colorPrimary"
+            android:scaleType="fitCenter"
+            android:src="@drawable/back_btn" />
+
+        <FrameLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="16"></FrameLayout>
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="55"
+            android:textSize="20sp"
+            android:textColor="#ffffff"
+            android:letterSpacing="0.01"
+            android:lineSpacingExtra="96sp"
+            android:gravity="center"
+            android:text="내정보"
+            />
+
+        <FrameLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="249"></FrameLayout>
+    </LinearLayout>
+
+
+    <!--교사정보-->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="56"
+        android:background="@color/main_gray"
+        android:orientation="vertical"
+        android:weightSum="56"
+        >
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="14"></FrameLayout>
+
+        <TextView
+            android:id="@+id/teacher_info"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="27"
+            android:text="    교사정보"
+            android:textColor="#3f4340"
+            android:textSize="18dp" />
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="15"></FrameLayout>
+    </LinearLayout>
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="24"
+        android:background="@color/white"></FrameLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="63"
+        android:background="@color/white"
+        android:orientation="horizontal"
+        android:weightSum="360">
+
+
+        <FrameLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="40"></FrameLayout>
+
+        <ImageView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="56"
+            android:src="@drawable/my_info"></ImageView>
+
+        <FrameLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="40"></FrameLayout>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="123"
+            android:orientation="vertical"
+            android:weightSum="63">
+
+            <TextView
+                android:id="@+id/teacher_name"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="15.75"
+                android:text="이름:">
+
+            </TextView>
+            <TextView
+                android:id="@+id/teacher_class"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="15.75"
+                android:text="학급:">
+
+            </TextView>
+            <TextView
+                android:id="@+id/teacher_sex"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="15.75"
+                android:text="성별:">
+
+            </TextView>
+            <TextView
+                android:id="@+id/teacher_number"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="15.75"
+                android:text="연락처:">
+            </TextView>
+        </LinearLayout>
+
+        <FrameLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="101"></FrameLayout>
+    </LinearLayout>
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="24"
+        android:background="@color/white"></FrameLayout>
+
+    <!--운전자 설정-->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="56"
+        android:background="@color/main_gray"
+        android:orientation="vertical"
+        android:weightSum="56"
+        >
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="14"></FrameLayout>
+
+        <TextView
+            android:id="@+id/driver_info"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="27"
+            android:text="    운전자 설정"
+            android:textColor="#3f4340"
+            android:textSize="18dp" />
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="15"></FrameLayout>
+    </LinearLayout>
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="24"
+        android:background="@color/white"></FrameLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="63"
+        android:background="@color/white"
+        android:orientation="horizontal"
+        android:weightSum="360">
+
+
+        <FrameLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="40"></FrameLayout>
+
+        <ImageView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="56"
+            android:src="@drawable/my_info"></ImageView>
+
+        <FrameLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="40"></FrameLayout>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="123"
+            android:orientation="vertical"
+            android:weightSum="63">
+            <TextView
+                android:id="@+id/driver_name"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="15.75"
+                android:text="이름:">
+
+            </TextView>
+            <TextView
+                android:id="@+id/driver_vehicle"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="15.75"
+                android:text="차량:">
+
+            </TextView>
+            <TextView
+                android:id="@+id/driver_sex"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="15.75"
+                android:text="성별:">
+
+            </TextView>
+            <TextView
+                android:id="@+id/driver_number"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="15.75"
+                android:text="연락처:">
+            </TextView>
+
+        </LinearLayout>
+
+        <FrameLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="101"></FrameLayout>
+    </LinearLayout>
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="24"
+        android:background="@color/white"></FrameLayout>
+</LinearLayout>

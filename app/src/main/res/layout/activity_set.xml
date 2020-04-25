@@ -1,0 +1,567 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:weightSum="612">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="56"
+        android:background="@color/colorPrimary"
+        android:orientation="horizontal"
+        android:weightSum="360">
+        <FrameLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="16"></FrameLayout>
+        <ImageButton
+            android:id="@+id/set_titlebar_back"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="24"
+            android:adjustViewBounds="true"
+            android:background="@color/colorPrimary"
+            android:scaleType="fitCenter"
+            android:src="@drawable/back_btn" />
+
+        <FrameLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="16"></FrameLayout>
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="46"
+            android:textSize="20sp"
+            android:textColor="#ffffff"
+            android:letterSpacing="0.01"
+            android:lineSpacingExtra="96sp"
+            android:gravity="center"
+            android:text="설정"
+            />
+
+        <FrameLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="258"></FrameLayout>
+    </LinearLayout>
+
+    <!--정보-->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="56"
+        android:background="@color/main_gray"
+        android:orientation="vertical"
+        android:weightSum="56"
+        >
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="14"></FrameLayout>
+
+        <TextView
+            android:id="@+id/set_info"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="27"
+            android:text="    정보"
+            android:textColor="#3f4340"
+            android:textSize="18sp" />
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="15"></FrameLayout>
+    </LinearLayout>
+
+    <!--내정보-->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="56"
+        android:background="@color/white"
+        android:orientation="vertical"
+        android:weightSum="56">
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="16"></FrameLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="56"
+            android:orientation="horizontal"
+            android:weightSum="360">
+
+
+            <FrameLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="16"></FrameLayout>
+
+            <TextView
+                android:id="@+id/set_myinfo"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="44"
+                android:text="내정보"
+                android:textColor="#3f4340"
+                android:textSize="16sp" />
+
+            <FrameLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="260"></FrameLayout>
+
+            <ImageButton
+                android:id="@+id/set_myinfo_btn"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="24"
+                android:adjustViewBounds="true"
+                android:background="@color/white"
+                android:scaleType="fitStart"
+                android:src="@drawable/arrow_btn" />
+            <FrameLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="16"></FrameLayout>
+
+        </LinearLayout>
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="16"></FrameLayout>
+    </LinearLayout>
+
+    <!--버전정보-->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="56"
+        android:background="@color/white"
+        android:orientation="vertical"
+        android:weightSum="56">
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="16"></FrameLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="56"
+            android:orientation="horizontal"
+            android:weightSum="360">
+
+
+            <FrameLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="16"></FrameLayout>
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="59"
+
+                android:text="버전정보"
+                android:textColor="#3f4340"
+                android:textSize="16sp" />
+
+            <FrameLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="219"></FrameLayout>
+
+            <TextView
+                android:id="@+id/set_version"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="50"
+                android:text="Ver1.0"
+                android:textColor="#000000"
+                android:textSize="16sp" />
+            <FrameLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="16"></FrameLayout>
+        </LinearLayout>
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="16"></FrameLayout>
+    </LinearLayout>
+
+
+
+
+
+
+    <!--사용자 설정-->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="56"
+        android:background="@color/main_gray"
+        android:orientation="vertical"
+        android:weightSum="56"
+        >
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="14"></FrameLayout>
+
+        <TextView
+            android:id="@+id/set_user"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="27"
+            android:text="    사용자 설정"
+            android:textColor="#3f4340"
+            android:textSize="18sp" />
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="15"></FrameLayout>
+    </LinearLayout>
+
+
+
+    <!--모듈설정-->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="56"
+        android:background="@color/white"
+        android:orientation="vertical"
+        android:weightSum="56">
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="16"></FrameLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="56"
+            android:orientation="horizontal"
+            android:weightSum="360">
+
+
+            <FrameLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="16"></FrameLayout>
+
+            <TextView
+                android:id="@+id/set_module"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="63"
+
+                android:text="모듈 설정"
+                android:textColor="#3f4340"
+                android:textSize="16sp" />
+
+            <FrameLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="241"></FrameLayout>
+
+            <ImageButton
+                android:id="@+id/set_module_btn"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="24"
+                android:adjustViewBounds="true"
+                android:background="@color/white"
+                android:scaleType="fitStart"
+                android:src="@drawable/arrow_btn" />
+            <FrameLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="16"></FrameLayout>
+
+        </LinearLayout>
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="16"></FrameLayout>
+    </LinearLayout>
+
+
+    <!--목적지등록-->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="56"
+        android:background="@color/white"
+        android:orientation="vertical"
+        android:weightSum="56">
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="16"></FrameLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="56"
+            android:orientation="horizontal"
+            android:weightSum="360">
+
+
+            <FrameLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="16"></FrameLayout>
+
+            <TextView
+                android:id="@+id/set_destination"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="78"
+
+                android:text="목적지 등록"
+                android:textColor="#3f4340"
+                android:textSize="16sp" />
+
+            <FrameLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="226"></FrameLayout>
+
+            <ImageButton
+                android:id="@+id/set_destination_btn"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="24"
+                android:adjustViewBounds="true"
+                android:background="@color/white"
+
+                android:scaleType="fitStart"
+                android:src="@drawable/arrow_btn" />
+            <FrameLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="16"></FrameLayout>
+
+        </LinearLayout>
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="16"></FrameLayout>
+    </LinearLayout>
+
+
+
+    <!--경로확인-->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="56"
+        android:background="@color/white"
+        android:orientation="vertical"
+        android:weightSum="56">
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="16"></FrameLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="56"
+            android:orientation="horizontal"
+            android:weightSum="360">
+
+
+            <FrameLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="16"></FrameLayout>
+
+            <TextView
+                android:id="@+id/set_routecheck"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="63"
+
+                android:text="경로 확인"
+                android:textColor="#3f4340"
+                android:textSize="16sp" />
+
+            <FrameLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="241"></FrameLayout>
+
+            <ImageButton
+                android:id="@+id/set_routecheck_btn"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="24"
+                android:adjustViewBounds="true"
+                android:background="@color/white"
+
+                android:scaleType="fitStart"
+                android:src="@drawable/arrow_btn" />
+            <FrameLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="16"></FrameLayout>
+
+        </LinearLayout>
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="16"></FrameLayout>
+    </LinearLayout>
+
+
+    <!--테스트 주행-->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="56"
+        android:background="@color/white"
+        android:orientation="vertical"
+        android:weightSum="56">
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="16"></FrameLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="56"
+            android:orientation="horizontal"
+            android:weightSum="360">
+
+
+            <FrameLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="16"></FrameLayout>
+
+            <TextView
+                android:id="@+id/set_test"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="78"
+                android:text="테스트 주행"
+                android:textColor="#3f4340"
+                android:textSize="16sp" />
+
+            <FrameLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="226"></FrameLayout>
+
+            <ImageButton
+                android:id="@+id/set_test_btn"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="24"
+                android:adjustViewBounds="true"
+                android:background="@color/white"
+                android:scaleType="fitStart"
+                android:src="@drawable/arrow_btn" />
+            <FrameLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="16"></FrameLayout>
+
+        </LinearLayout>
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="16"></FrameLayout>
+    </LinearLayout>
+
+
+    <!--로그아웃-->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="56"
+        android:background="@color/white"
+        android:orientation="vertical"
+        android:weightSum="56">
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="16"></FrameLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="56"
+            android:orientation="horizontal"
+            android:weightSum="360">
+
+
+            <FrameLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="16"></FrameLayout>
+
+            <TextView
+                android:id="@+id/set_logout"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="59"
+                android:text="로그아웃"
+                android:textColor="#3f4340"
+                android:textSize="16sp" />
+
+            <FrameLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="245"></FrameLayout>
+
+            <ImageButton
+                android:id="@+id/set_logout_btn"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="24"
+                android:adjustViewBounds="true"
+                android:background="@color/white"
+                android:gravity="center"
+                android:scaleType="fitStart"
+                android:src="@drawable/arrow_btn" />
+            <FrameLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="16"></FrameLayout>
+
+        </LinearLayout>
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="16"></FrameLayout>
+    </LinearLayout>
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="56"></FrameLayout>
+
+
+</LinearLayout>

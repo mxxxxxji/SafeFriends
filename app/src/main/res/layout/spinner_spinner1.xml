@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:gravity="center_vertical"
+    android:paddingLeft="13dp"
+    android:paddingRight="13dp"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="10">
+
+    <TextView
+        android:id="@+id/spinner_tv1"
+        android:textSize="15sp"
+        android:gravity="center"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="3"/>
+
+    <TextView
+        android:text="|"
+        android:textSize="15sp"
+        android:gravity="center"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"/>
+    <TextView
+        android:id="@+id/spinner_tv2"
+        android:textSize="15sp"
+        android:textColor="#000"
+        android:alpha="0.87"
+        android:paddingLeft="13dp"
+        android:textColorHint="#1f000000"
+        android:gravity="center"
+        android:layout_weight="4"
+        android:layout_width="0dp"
+        android:layout_height="match_parent" />
+
+    <TextView
+        android:id="@+id/spinner_tv3"
+        android:textSize="12sp"
+        android:textColor="@color/colorPrimary"
+        android:alpha="0.87"
+        android:paddingLeft="13dp"
+        android:gravity="center"
+        android:layout_weight="3"
+        android:layout_width="0dp"
+        android:layout_height="match_parent" />
+
+    <ImageView
+        android:src="@drawable/dropdown_icon_down"
+        android:scaleType="centerInside"
+        android:layout_width="20dp"
+        android:layout_height="match_parent" />
+
+</LinearLayout>

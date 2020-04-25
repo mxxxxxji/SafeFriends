@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:background="@color/colorPrimary"
+    android:orientation="vertical"
+    android:weightSum="640"
+    tools:context=".Activity.LoginActivity">
+
+   <LinearLayout
+       android:layout_width="match_parent"
+       android:layout_height="0dp"
+       android:layout_weight="296"
+       android:orientation="vertical"
+       android:weightSum="296">
+       <FrameLayout
+           android:layout_width="match_parent"
+           android:layout_height="0dp"
+           android:layout_weight="119">
+       </FrameLayout>
+       <LinearLayout
+           android:layout_width="match_parent"
+           android:layout_height="0dp"
+           android:layout_weight="91.4"
+           android:orientation="horizontal"
+           android:weightSum="360">
+
+           <FrameLayout
+               android:layout_width="0dp"
+               android:layout_height="match_parent"
+               android:layout_weight="95">
+           </FrameLayout>
+           <ImageView
+               android:id="@+id/logo"
+               android:layout_width="0dp"
+               android:layout_height="match_parent"
+               android:layout_weight="170"
+               android:adjustViewBounds="true"
+               android:src="@drawable/logo4" />
+           <FrameLayout
+               android:layout_width="0dp"
+               android:layout_height="match_parent"
+               android:layout_weight="95">
+           </FrameLayout>
+       </LinearLayout>
+        <FrameLayout
+           android:layout_width="match_parent"
+           android:layout_height="0dp"
+           android:layout_weight="85.6">
+       </FrameLayout>
+   </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="344"
+        android:orientation="horizontal"
+        android:weightSum="360">
+
+        <FrameLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="16">
+        </FrameLayout>
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="328"
+            android:orientation="vertical"
+            android:weightSum="344">
+
+
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="48">
+
+                <EditText
+                    android:id="@+id/LoginActivity_editText_id"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:paddingLeft="50dp"
+                    android:ems="13"
+                    android:hint="아이디를 입력해주세요"
+                    android:textSize="15sp"
+                    android:inputType="textEmailAddress"
+                    android:background="@drawable/editbox_1"/>
+
+                <ImageView
+                    android:id="@+id/id_iv"
+                    android:layout_width="24dp"
+                    android:layout_height="24dp"
+                    android:layout_margin="15dp"
+                    android:src="@drawable/icon_identity_n">
+
+                </ImageView>
+            </FrameLayout>
+
+
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="16">
+            </FrameLayout>
+
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="48">
+                <EditText
+                    android:id="@+id/LoginActivity_editText_pw"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:paddingLeft="50dp"
+                    android:ems="13"
+                    android:hint="비밀번호를 입력해주세요"
+                    android:textSize="15sp"
+                    android:inputType="textPassword"
+                    android:background="@drawable/editbox_1" />
+
+                <ImageView
+                    android:id="@+id/pwd_iv"
+                    android:layout_width="24dp"
+                    android:layout_height="24dp"
+                    android:layout_margin="15dp"
+                    android:src="@drawable/icon_lock_password_n">
+
+                </ImageView>
+            </FrameLayout>
+
+
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="16">
+            </FrameLayout>
+
+
+
+            <CheckBox
+                android:id="@+id/save_login_checkbox"
+                android:text="   로그인 상태 유지"
+                android:textColor="@color/white"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="24"
+                android:buttonTint="@color/white"
+                android:scaleType="fitCenter" />
+
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="32">
+            </FrameLayout>
+            <Button
+                android:id="@+id/LoginActivity_button_login"
+                android:layout_width="wrap_content"
+                android:layout_height="0dp"
+                android:layout_weight="52"
+                android:layout_alignParentRight="true"
+                android:background="@drawable/login_btn2"
+                android:text="LOGIN"
+                android:textColor="@color/white" />
+
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="75.8">
+            </FrameLayout>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="12"
+                android:text="COPYRIGHT 2019 INNO-CO. ALL RIGHTS RESERVED"
+                android:textSize="10dp"
+                android:gravity="center"
+                android:textColor="@color/white"/>
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="20.2">
+            </FrameLayout>
+        </LinearLayout>
+        <FrameLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="16">
+        </FrameLayout>
+
+    </LinearLayout>
+</LinearLayout>
+
